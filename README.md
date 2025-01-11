@@ -1,8 +1,8 @@
-# ![alt text](./media/command-prompt-logo.png?raw=true) Command Prompt (CMD) Guide
+# ![alt text](./media/command-prompt-logo.png?raw=true) Command Prompt (CMD) Commands
 
 ## Introduction
 
-Welcome to the Command Prompt (CMD) Guide! CMD is a powerful command-line interface (CLI) for interacting with the Windows operating system.
+Welcome to the Command Prompt (CMD) Commands reference! CMD is a powerful command-line interface (CLI) for interacting with the Windows operating system.
 
 This guide lists the CMD commands. Where available, the individual CMD files will provide examples of usage for your reference. Enjoy!
 
