@@ -2,7 +2,7 @@
 Delete files.
 
 ## Syntax
-```powershell
+```batchfile
 DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
 ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
 
@@ -31,16 +31,16 @@ you only the files that are deleted, not the ones it could not find.
 
 ## Examples
 **1. Delete a file from current directory.**
-```powershell
+```batchfile
 del test.tmp
 ```
 
 **2. Delete a file from specified path.**
-```powershell
+```batchfile
 del c:\windows\test.tmp
 ```
 
 **3. Delete multiple files from specified path.**
-```powershell
+```batchfile
 del c:\windows\temp\*.*
 ```
