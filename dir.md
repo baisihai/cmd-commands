@@ -44,17 +44,17 @@ Switches may be preset in the DIRCMD environment variable.
 Override preset switches by prefixing any switch with - (hyphen). For example, /-W.
 
 ## Examples
-1. Run Without Switches
+**1. Run Without Switches**
 ```powershell
 dir
 ```
 
-2. List Hidden Items
+**2. List Hidden Items**
 ```powershell
 dir c:\temp /ah
 ```
 
-3. Search for File In Any Folder
+**3. Search for File In Any Folder**
 ```powershell
 dir c:\*.mp4 /s /b > c:\temp\mp4files.txt
 ```
