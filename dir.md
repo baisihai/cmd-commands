@@ -2,7 +2,7 @@
 Displays a list of files and subdirectories in a directory.
 
 ## Syntax
-```powershell
+```batchfile
 DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N]
 [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4]
 
@@ -45,16 +45,16 @@ Override preset switches by prefixing any switch with - (hyphen). For example, /
 
 ## Examples
 **1. Run Without Switches**
-```powershell
+```batchfile
 dir
 ```
 
 **2. List Hidden Items**
-```powershell
+```batchfile
 dir c:\temp /ah
 ```
 
 **3. Search for File In Any Folder**
-```powershell
+```batchfile
 dir c:\*.mp4 /s /b > c:\temp\mp4files.txt
 ```
