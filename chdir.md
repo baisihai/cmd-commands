@@ -35,27 +35,27 @@ is the same as:
 which is what you would have to type if extensions were disabled.
 
 ## Examples
-1. Displays the current directory
+**1. Displays the current directory**
 ```powershell
 chdir
 ```
 
-2. Change to the root directory of the drive.
+**2. Change to the root directory of the drive.**
 ```powershell
 chdir \
 ```
 
-3. Change to a specific directory. For example, if you are in the C:\temp> directory, this would take you to C:\Windows> directory.
+**3. Change to a specific directory. For example, if you are in the C:\temp> directory, this would take you to C:\Windows> directory.**
 ```powershell
 chdir c:\Windows
 ```
 
-4. Change to a sub-directory. For example, if you are in the C:\temp> directory, this would take you to C:\Temp\SubFolder> directory.
+**4. Change to a sub-directory. For example, if you are in the C:\temp> directory, this would take you to C:\Temp\SubFolder> directory.**
 ```powershell
 chdir SubFolder
 ```
 
-5. Goes back one directory. For example, if you are in the C:\Temp\SubFolder> directory, this would take you to C:\Temp> directory.
+**5. Goes back one directory. For example, if you are in the C:\Temp\SubFolder> directory, this would take you to C:\Temp> directory.**
 ```powershell
 chdir ..
 ```
