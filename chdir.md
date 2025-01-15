@@ -2,7 +2,7 @@
 Displays the name of or changes the current directory.
 
 ## Syntax
-```powershell
+```batchfile
 CHDIR [/D] [drive:][path]
 CHDIR [..]
 CD [/D] [drive:][path]
@@ -36,26 +36,26 @@ which is what you would have to type if extensions were disabled.
 
 ## Examples
 **1. Displays the current directory**
-```powershell
+```batchfile
 chdir
 ```
 
 **2. Change to the root directory of the drive.**
-```powershell
+```batchfile
 chdir \
 ```
 
 **3. Change to a specific directory. For example, if you are in the C:\temp> directory, this would take you to C:\Windows> directory.**
-```powershell
+```batchfile
 chdir c:\Windows
 ```
 
 **4. Change to a sub-directory. For example, if you are in the C:\temp> directory, this would take you to C:\Temp\SubFolder> directory.**
-```powershell
+```batchfile
 chdir SubFolder
 ```
 
 **5. Goes back one directory. For example, if you are in the C:\Temp\SubFolder> directory, this would take you to C:\Temp> directory.**
-```powershell
+```batchfile
 chdir ..
 ```
