@@ -17,8 +17,9 @@ This reference lists the CMD commands. Where available, the individual CMD files
 - `rmdir` - Remove a directory.
 - `rd` - Shorthand version of the `rmdir` command.
 - `copy` - Copy files or directories.
-- `move` - Move files or directories.
+- `move` - Moves files and renames files and directories.
 - `del` - Delete files.
+- `erase` - Same as `del` command.
 - `rename` - Rename files or directories.
 - `ren` - Shorthand version of the `rename` command.
 - `type` - Display the contents of a text file.
