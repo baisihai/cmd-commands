@@ -2,7 +2,7 @@
 Removes (deletes) a directory.
 
 ## Syntax
-```powershell
+```batchfile
 RMDIR [/S] [/Q] [drive:]path
 RD [/S] [/Q] [drive:]path
 
@@ -14,13 +14,14 @@ RD [/S] [/Q] [drive:]path
 ```
 
 ## Examples
-1. Remove the test directory, if it's empty.
-```powershell
+**1. Remove the test directory, if it's empty.**
+```batchfile
 rmdir c:\test
 ```
 
-2. Permanently delete the test directory, subdirectories, and files. Adding the /q switch would suppress the prompt.
-```powershell
+**2. Permanently delete the test directory, subdirectories, and files.**
+```batchfile
 rmdir c:\test /s
 ```
-
+> [!NOTE]
+> Windows 2000, Windows XP and later versions of Windows can use this option with a prompt to permanently delete the test directory, subdirectories, and files. Adding the /q switch would suppress the prompt.
